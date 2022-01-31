@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 1</title>
+</head>
+<div id="prob1"></div>
+<div id="prob2"></div>
+<div id="prob3"></div>
+<div id="prob4"></div>
+<div id="prob5"></div>
+
+<body>
+</body>
+
+</html>
+<script>
+    // Problem 1
+    var data1 = { name: 'masai', password: 'admin@123', hostname: 'masaischool', client: 'chrome' };
+
+    var name = data1.name;
+    var password = data1.password;
+
+    document.getElementById('prob1').innerHTML = `
+    <p>Name : ${name}</p>
+    <p>Password : ${password}</p>
+    `;
+
+    // Problem 2
+    var data2 = { name: 'masai', address: { pincode: 560095 } };
+
+    var pin = data2.address.pincode;
+
+    document.getElementById('prob2').innerHTML = `
+    <p>Pin : ${pin}</p>
+    `;
+
+    // Problem 3
+    var data3 = [100, 200, 500, 600];
+
+    var firstValue = data3[0];
+    var secondValue = data3[1];
+
+    document.getElementById('prob3').innerHTML = `
+    <p>First Value : ${firstValue}</p>
+    <p>Second Value : ${secondValue}</p>
+    `;
+
+    // Problem 4
+    var data4 = [100, [50, 60, 70]];
+
+    var value50 = data4[1][0];
+
+    document.getElementById('prob4').innerHTML = `
+    <p>Value50 : ${value50}</p>
+    `;
+
+    // Problem 5
+    var data5 = [1, {
+        arr: [1, 2, 3]
+    }
+    ];
+
+    var value2 = data5[1].arr[1];
+    var value3 = data5[1].arr[2];
+
+    document.getElementById('prob5').innerHTML = `
+    <p>Value2 : ${value2}</p>
+    <p>Value3 : ${value3}</p>
+    `;
+
+</script>
