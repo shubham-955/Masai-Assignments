@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
