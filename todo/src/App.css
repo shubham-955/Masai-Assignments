@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.input {
+  width: 180px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 10px;
+  margin: 0px 5px;
+}
+
+.check {
+  margin: 0px 5px;
+}
+
+.btn {
+  margin: 0px 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(48, 46, 46);
+  cursor: pointer;
+}
+
+.todoItem {
+  width: 260px;
+  height: 40px;
+  margin: 15px auto;
+  background-color: rgb(199, 190, 190);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.todoItem p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkBox {
+  position: absolute;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 3px solid red;
+}
+
+.checkBox:hover {
+  cursor: pointer;
+}
