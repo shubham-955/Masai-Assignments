@@ -29,6 +29,7 @@ export const TimerInput = ({ setInputFir, setInputSec }) => {
         setFirInput('');
         setSecInput('');
     }
+
     return (
         <div>
             <div className='inputSection'>
