@@ -21,8 +21,6 @@ export const TimerInput = ({ setInputFir, setInputSec }) => {
         }
         setInputFir(firInput);
         setInputSec(secInput);
-        setFirInput('');
-        setSecInput('');
     }
 
     const handleReset = () => {
