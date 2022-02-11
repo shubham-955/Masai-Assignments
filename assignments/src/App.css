@@ -1,0 +1,56 @@
+.Container {
+  display: flex;
+  justify-content: center;
+}
+
+.mainTitle {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+/* .input::content {
+  font-size: 16px;
+} */
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.btn {
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.output {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
