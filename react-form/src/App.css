@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 80px;
+}
+
+.mainBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.firstBox {
+  width: 40%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px 0;
+}
+
+.secondBox {
+  width: 55%;
+  border: 1px solid black;
+  padding: 20px;
+  position: relative;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.strike:hover {
+  cursor: pointer;
+}
+
+.normal {
+  text-decoration: none;
+}
+
+.normal:hover {
+  cursor: pointer;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 10px;
+  margin: 5px 0;
+}
+
+.btn {
+  margin: 10px 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(48, 46, 46);
+  cursor: pointer;
+}
+
+.input2 {
+  width: 160px;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 10px;
+  margin: 0px 5px;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.todoItem {
+  width: 260px;
+  height: 40px;
+  margin: 15px auto;
+  padding-left: 10px;
+  background-color: rgb(199, 190, 190);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.todoItem1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#depart {
+  width: 250px;
+  height: 40px;
+  margin: 5px 0px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+#single {
+  margin: 0px 20px;
+}
+
+#single:hover {
+  cursor: pointer;
+}
+
+#married {
+  margin: 0px 20px;
+}
+
+#married:hover {
+  cursor: pointer;
+}
+
+.profileLabel {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+#profile {
+  margin: 5px 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+.sort img {
+  width: 20px;
+  height: 20px;
+}
+
+.sort:hover {
+  cursor: pointer;
+}
+
+.delete img {
+  width: 25px;
+  height: 25px;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.directionBtn {
+  width: 95%;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.prevBtn {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.prevBtn:hover {
+  cursor: pointer;
+}
+
+.nextBtn {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.nextBtn:hover {
+  cursor: pointer;
+}

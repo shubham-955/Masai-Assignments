@@ -1,0 +1,104 @@
+{
+  "Arr": [
+    {
+      "name": "Shubham Gadge",
+      "id": "1",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Civil",
+      "salary": "10000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    },
+    {
+      "name": "Pratik Gadge",
+      "id": "2",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Mechanical",
+      "salary": "50000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    },
+    {
+      "name": "Abhishek Oza",
+      "id": "3",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Electrical",
+      "salary": "50000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    },
+    {
+      "name": "Mahesh Doke",
+      "id": "4",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Civil",
+      "salary": "20000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    },
+    {
+      "name": "Pankaj Sawant",
+      "id": "5",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Electrical",
+      "salary": "50000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    },
+    {
+      "name": "Mahesh Doke",
+      "id": "5",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Civil",
+      "salary": "30000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    },
+    {
+      "name": "Shubham Gadge",
+      "id": "6",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Civil",
+      "salary": "40000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    },
+    {
+      "name": "Pratik Gadge",
+      "id": "7",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Mechanical",
+      "salary": "50000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    },
+    {
+      "name": "Abhishek Oza",
+      "id": "8",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Electrical",
+      "salary": "50000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    },
+    {
+      "name": "Pankaj Sawant",
+      "id": "9",
+      "age": "25",
+      "address": "Savedi",
+      "department": "Electrical",
+      "salary": "50000",
+      "maritalState": "Single",
+      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
+    }
+  ]
+}
