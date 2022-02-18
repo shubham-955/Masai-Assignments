@@ -89,16 +89,6 @@
       "salary": "50000",
       "maritalState": "Single",
       "profilePhoto": "C:\\fakepath\\myphoto.jpg"
-    },
-    {
-      "name": "Pankaj Sawant",
-      "id": "9",
-      "age": "25",
-      "address": "Savedi",
-      "department": "Electrical",
-      "salary": "50000",
-      "maritalState": "Single",
-      "profilePhoto": "C:\\fakepath\\myphoto.jpg"
     }
   ]
 }

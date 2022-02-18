@@ -1,0 +1,33 @@
+.homeContainer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContainer p {
+    font-size: 70px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: #007ACC;
+    border: none;
+    margin: 10px 0;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #007ACC;
+    transition: 0.6s;
+    box-shadow: 0 2px 14px 5px rgb(20 20 20 / 10%);
+}

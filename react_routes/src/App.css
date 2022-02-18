@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.notFoundContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.notFoundContainer p {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+}

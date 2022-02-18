@@ -1,0 +1,36 @@
+.productsContainer {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.indContainer {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 14px 5px rgb(20 20 20 / 10%);
+    padding: 0px 25px;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #007ACC;
+}
+
+.cost {
+    font-size: 18px;
+    font-weight: 600;
+}
