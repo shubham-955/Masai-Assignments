@@ -1,0 +1,11 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.homeContainer h1 {
+    color: #007ACC;
+}
