@@ -1,12 +1,34 @@
+.root {
+    tan: #c69c6d;
+    lightSilver: #f0eee9;
+    lightTan: #fefaf4;
+    dark: #4a4541;
+}
+
 .navbar {
     width: 100%;
-    height: 60px;
+    height: 70px;
     padding: 0px 70px 0px 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #007ACC;
+    background-color: white;
+}
+
+.offer {
+    width: 100%;
+    height: 40px;
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer p {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .collapse ul {
@@ -22,14 +44,14 @@
 
 .collapse ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--dark);
     font-size: 19px;
     font-weight: 600;
 }
 
 .navbar-brand {
-    color: white;
-    font-size: 25px;
+    color: var(--dark);
+    font-size: 30px;
     font-weight: 600;
     text-decoration: none;
 }

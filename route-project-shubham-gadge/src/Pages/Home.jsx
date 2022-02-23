@@ -1,18 +1,46 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { useNavigate } from 'react-router-dom'
 import { NavigateNext, NavigateBefore } from '@material-ui/icons';
 import '../CSS/Home.css'
+import "../App.css"
 
 export const Home = () => {
     let navigate = useNavigate();
+    const [products, setProducts] = useState([])
+    const [slider, setSlider] = useState([])
 
-    const slideImages = [
-        'https://media.istockphoto.com/photos/home-caregiver-helping-a-senior-man-standing-up-at-home-picture-id1313001485?b=1&k=20&m=1313001485&s=170667a&w=0&h=gf59mcgLFPf5_y2OVC_B2Drfgkq2nvG18IN-rgBDQ1s=',
-        'https://media.istockphoto.com/photos/caregiver-assist-senior-woman-at-home-picture-id1296176562?b=1&k=20&m=1296176562&s=170667a&w=0&h=gHya2Ee_SnnfngzSvzRra93uSlb7xG76apicnILHvIw=',
-        'https://media.istockphoto.com/photos/doctor-in-hospital-background-with-copy-space-picture-id914490884?k=20&m=914490884&s=612x612&w=0&h=MPSRpGNtZVj7Q6NS4HfOVj7VdrMAFWSfdT_ZlQdJeps=',
-    ];
+    useEffect(() => {
+        getData();
+        getSliderData();
+    }, [])
+
+    const getData = async () => {
+        fetch("http://localhost:3000/category", {
+            method: "GET",
+            headers: {
+                "content-type": "application/json",
+            }
+        }).then((r) => r.json()
+        ).then((d) => {
+            setProducts(d);
+            console.log(products)
+        })
+    }
+
+    const getSliderData = async () => {
+        fetch("http://localhost:3000/slider", {
+            method: "GET",
+            headers: {
+                "content-type": "application/json",
+            }
+        }).then((r) => r.json()
+        ).then((d) => {
+            setSlider(d);
+            console.log(products)
+        })
+    }
 
     const properties = {
         canSwipe: false,
@@ -29,28 +57,30 @@ export const Home = () => {
         <div className='homeContainer'>
             <div className='sliderContainer'>
                 <Slide easing="ease" {...properties}>
-                    <div className="each-slide">
-                        <div style={{ 'backgroundImage': `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slideImages[0]})` }}>
-                            <p className="homeTitle">B-GRADE LEATHER + OLD STOCK</p>
-                            <p className='homeSubTitle'>The Sample Sale</p>
-                            <button className='btn' onClick={() => navigate("/products")}>SHOP NOW</button>
-                        </div>
-                    </div>
-                    <div className="each-slide">
-                        <div style={{ 'backgroundImage': `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slideImages[1]})` }}>
-                            <p className="homeTitle">B-GRADE LEATHER + OLD STOCK</p>
-                            <p className='homeSubTitle'>The Sample Sale</p>
-                            <button className='btn' onClick={() => navigate("/products")}>SHOP NOW</button>
-                        </div>
-                    </div>
-                    <div className="each-slide">
-                        <div style={{ 'backgroundImage': `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slideImages[2]})` }}>
-                            <p className="homeTitle">B-GRADE LEATHER + OLD STOCK</p>
-                            <p className='homeSubTitle'>The Sample Sale</p>
-                            <button className='btn' onClick={() => navigate("/products")}>SHOP NOW</button>
-                        </div>
-                    </div>
+                    {slider.map(item => {
+                        return (
+                            <div className="each-slide">
+                                <div style={{ 'backgroundImage': `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${item.thumbnail}})` }}>
+                                    <p className="homeTitle">{item.title}</p>
+                                    <p className='homeSubTitle'>{item.subTitle}</p>
+                                    <button className='shopBtn' onClick={() => navigate(`/${item.name}/${item.id}`)}>SHOP NOW</button>
+                                </div>
+                            </div>
+                        )
+                    })
+                    }
                 </Slide>
+            </div>
+            <div className='productSection'>
+                {products.map(item => {
+                    return (<div className='products'
+                        style={{ 'backgroundImage': `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(${item.image})` }}
+                        onClick={() => navigate(`/${item.name}/${item.id}`)}
+                    >
+                        <p>{item.name}</p>
+                    </div>)
+                })
+                }
             </div>
         </div>
     )

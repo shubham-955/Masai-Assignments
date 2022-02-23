@@ -1,43 +1,59 @@
 import React, { useState, useEffect } from 'react'
-import { Outlet, useNavigate } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import '../CSS/AllProducts.css'
+import "../App.css"
 
 export const AllProducts = () => {
 
-  let navigate = useNavigate();
-  const [products, setProducts] = useState([])
+  const [products, setProducts] = useState([]);
+  const params = useParams();
 
   useEffect(() => {
-    getData();
-  }, [])
+    if (params.id) {
+      getIndData();
+    }
+  }, [params])
 
-  const getData = async () => {
-    fetch("http://localhost:3000/products", {
-      method: "GET",
-      headers: {
-        "content-type": "application/json",
+  const getIndData = async () => {
+    try {
+      const response = await fetch(`http://localhost:3000/category/${params.id}`, {
+        method: "GET",
+        headers: {
+          "content-type": "application/json",
+        }
+      })
+      const res = await response.json();
+      if (res) {
+        setProducts(res.products)
       }
-    }).then((r) => r.json()
-    ).then((d) => {
-      setProducts(d);
-      console.log(products)
-    })
+    } catch (error) {
+      console.log(error)
+    }
   }
 
+  console.log("products....", products)
+
   return (
-    <div className='productsContainer'>
-      {products.map((item) => {
-        return (
-          <div key={item.id} className='indContainer'>
-            <div className='details'>
-              <p className='title'>{item.name}</p>
-              <p className='cost'>{item.cost}</p>
-            </div>
-            <button className='btn' onClick={() => navigate(`/products/${item.id}`)}>More details..</button>
+    <div className='productSection'>
+
+      {products.map(item => {
+        return (<div className='indContainer'
+        >
+          <div className='image'>
+            <img src={item.image} alt="" />
           </div>
-        )
-      })}
-      {/* <Outlet /> */}
+          <div className='details'>
+            <p className='title'>{item.name}</p>
+            <p className='cost'>{item.cost}</p>
+          </div>
+          <div className='btnView'>
+            <Link to={`/${params.category}/${params.id}/${item.name}/${item.id}`}>
+              <button className='shopBtn'>View more</button>
+            </Link>
+          </div>
+        </div>)
+      })
+      }
     </div>
   )
 }

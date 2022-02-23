@@ -1,3 +1,10 @@
+.root {
+    tan: #c69c6d;
+    lightSilver: #f0eee9;
+    lightTan: #fefaf4;
+    dark: #4a4541;
+}
+
 .contactBox {
     background-color: white;
     height: 50px;
@@ -5,6 +12,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border-bottom: 0.5px solid rgb(228, 217, 217);
 }
 
 .icons {
