@@ -1,12 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { useNavigate } from 'react-router-dom'
 import { NavigateNext, NavigateBefore } from '@material-ui/icons';
 import '../CSS/Home.css'
 import "../App.css"
+import { AuthContext } from '../Contexts/AuthProvider';
 
 export const Home = () => {
+
+    const { getCount } = useContext(AuthContext);
     let navigate = useNavigate();
     const [products, setProducts] = useState([])
     const [slider, setSlider] = useState([])
@@ -14,6 +17,7 @@ export const Home = () => {
     useEffect(() => {
         getData();
         getSliderData();
+        getCount();
     }, [])
 
     const getData = async () => {

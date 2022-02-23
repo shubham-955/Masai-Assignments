@@ -69,3 +69,34 @@
     color: #0E2737;
     transition: 0.8s;
 }
+
+.cart {
+    position: relative;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.count {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FF6D6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count p {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.drawer {
+    width: 550px;
+}

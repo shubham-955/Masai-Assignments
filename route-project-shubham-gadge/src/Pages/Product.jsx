@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import '../CSS/Product.css'
 import '../App.css'
+import { AuthContext } from '../Contexts/AuthProvider'
 
 export const Product = (props) => {
 
+    const { getCount } = useContext(AuthContext);
     const [product, setProduct] = useState({});
     const params = useParams();
     const navigate = useNavigate();
@@ -14,6 +16,7 @@ export const Product = (props) => {
         console.log(props)
         if (params.id || params.type) {
             getIndData();
+            getCount()
         }
     }, [params.id || params.type])
 

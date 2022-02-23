@@ -1,158 +1,178 @@
 {
-    "slider": [
+  "slider": [
+    {
+      "id": 1,
+      "name": "Belts",
+      "title": "B-GRADE LEATHER + OLD STOCK",
+      "subTitle": "The Sample Sale",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0044/9802/collections/tanner-goods-natural-belts-product-hero_720x.jpg?v=1623179892"
+    },
+    {
+      "id": 2,
+      "name": "Wallets",
+      "title": "Wallet Crafted for Well",
+      "subTitle": "Well Bloomed wallet",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0044/9802/collections/TG-Journeyman-Slider_1800x.jpg?v=1643392529"
+    },
+    {
+      "id": 3,
+      "name": "Watches",
+      "title": "The Hands of Time",
+      "subTitle": "Delightful Dials and Bezels",
+      "thumbnail": "https://images.pexels.com/photos/23475/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+      "id": 4,
+      "name": "Perfumes",
+      "title": "Essences for Life",
+      "subTitle": "Pristine Perfumes",
+      "thumbnail": "https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Belts",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWJeZU8rPVqSERouxNBKeoUojtPCJnChXIA&usqp=CAU",
+      "products": [
         {
-            "id": 0,
-            "name": "Belts",
-            "title": "B-GRADE LEATHER + OLD STOCK",
-            "subTitle": "The Sample Sale",
-            "thumbnail": "https://cdn.shopify.com/s/files/1/0044/9802/collections/tanner-goods-natural-belts-product-hero_720x.jpg?v=1623179892"
+          "id": 1,
+          "name": "Elite blue with classic buckle",
+          "cost": "Rs. 10,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS73sI27EX44zxJHCSrf4WstL98dDlBA5eal0m12u-jUfAWe_HFUnBtR7DLgNtsFg4Q7mo&usqp=CAU"
         },
         {
-            "id": 1,
-            "name": "Wallets",
-            "title": "Wallet Crafted for Well",
-            "subTitle": "Well Bloomed wallet",
-            "thumbnail": "https://cdn.shopify.com/s/files/1/0044/9802/collections/TG-Journeyman-Slider_1800x.jpg?v=1643392529"
+          "id": 2,
+          "name": "Elastic Belt ",
+          "cost": "Rs. 90,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhMYUvib3Y8T9B5JWD1hhrvOrDjsH6rwgmrkYjXS5fZnuFWvkB_RKwt4RiMsXUqb-0MdA&usqp=CAU"
         },
         {
-            "id": 2,
-            "name": "Watches",
-            "title": "The Hands of Time",
-            "subTitle": "Delightful Dials and Bezels",
-            "thumbnail": "https://images.pexels.com/photos/23475/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          "id": 3,
+          "name": "Woven Belt",
+          "cost": "Rs. 70,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToEwTaKMuC59Rj_WLBFQESgAGuQFYpfCzyQqFj-FodIjwettFKHdtBKlW7G3BfvmAVCEw&usqp=CAU"
         },
         {
-            "id": 3,
-            "name": "Perfumes",
-            "title": "Essences for Life",
-            "subTitle": "Pristine Perfumes",
-            "thumbnail": "https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          "id": 4,
+          "name": "Webbed Stretch Belt",
+          "cost": "Rs. 15,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBJJdC8HgFHkda65isAW4OXMp4WzMUP3oGYq25INUsroFw_D7GmSP0-fXMMILsBxoq5xc&usqp=CAU"
         }
-    ],
-    "category": [
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Wallets",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ypr_494ACypuiodujY1NabQ2Xne2VqyUBiHHK7wgbfiMWZ1QYiPb59AYW-YN7hiWeMk&usqp=CAU",
+      "products": [
         {
-            "id": 0,
-            "name": "Belts",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWJeZU8rPVqSERouxNBKeoUojtPCJnChXIA&usqp=CAU",
-            "products": [
-                {
-                    "id": 0,
-                    "name": "Elite blue with classic buckle",
-                    "cost": "Rs. 10,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS73sI27EX44zxJHCSrf4WstL98dDlBA5eal0m12u-jUfAWe_HFUnBtR7DLgNtsFg4Q7mo&usqp=CAU"
-                },
-                {
-                    "id": 1,
-                    "name": "Elastic Belt ",
-                    "cost": "Rs. 90,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhMYUvib3Y8T9B5JWD1hhrvOrDjsH6rwgmrkYjXS5fZnuFWvkB_RKwt4RiMsXUqb-0MdA&usqp=CAU"
-                },
-                {
-                    "id": 2,
-                    "name": "Woven Belt",
-                    "cost": "Rs. 70,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToEwTaKMuC59Rj_WLBFQESgAGuQFYpfCzyQqFj-FodIjwettFKHdtBKlW7G3BfvmAVCEw&usqp=CAU"
-                },
-                {
-                    "id": 3,
-                    "name": "Webbed Stretch Belt",
-                    "cost": "Rs. 15,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBJJdC8HgFHkda65isAW4OXMp4WzMUP3oGYq25INUsroFw_D7GmSP0-fXMMILsBxoq5xc&usqp=CAU"
-                }
-            ]
+          "id": 1,
+          "name": "Canvas Blue Wallet",
+          "cost": "Rs. 10,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjw1y6oxNjT80kYpPpkXra8AuwD1j_KVJMu3xSKYo19I_yNGC2JdWxYcG2fiZKTFuL4I4&usqp=CAU"
         },
         {
-            "id": 1,
-            "name": "Wallets",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ypr_494ACypuiodujY1NabQ2Xne2VqyUBiHHK7wgbfiMWZ1QYiPb59AYW-YN7hiWeMk&usqp=CAU",
-            "products": [
-                {
-                    "id": 0,
-                    "name": "Canvas Blue Wallet",
-                    "cost": "Rs. 10,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjw1y6oxNjT80kYpPpkXra8AuwD1j_KVJMu3xSKYo19I_yNGC2JdWxYcG2fiZKTFuL4I4&usqp=CAU"
-                },
-                {
-                    "id": 1,
-                    "name": "Fabric Wallet",
-                    "cost": "Rs. 90,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYoMoy5_ufyugWzOLt5tzN1HmHH9MssmL4tWb5QTyvzL2tQ0d8L2lpAepzjXsliz8t5Nc&usqp=CAU"
-                },
-                {
-                    "id": 2,
-                    "name": "Leather Wallet",
-                    "cost": "Rs. 70,000",
-                    "image": "https://pngimg.com/uploads/wallet/wallet_PNG77019.png"
-                },
-                {
-                    "id": 3,
-                    "name": "Nylon Wallet",
-                    "cost": "Rs. 15,000",
-                    "image": "https://pngimg.com/uploads/wallet/wallet_PNG77045.png"
-                }
-            ]
+          "id": 2,
+          "name": "Fabric Wallet",
+          "cost": "Rs. 90,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYoMoy5_ufyugWzOLt5tzN1HmHH9MssmL4tWb5QTyvzL2tQ0d8L2lpAepzjXsliz8t5Nc&usqp=CAU"
         },
         {
-            "id": 2,
-            "name": "Watches",
-            "image": "https://pngimg.com/uploads/watches/watches_PNG9904.png",
-            "products": [
-                {
-                    "id": 0,
-                    "name": "Analogue Watch",
-                    "cost": "Rs. 10,000",
-                    "image": "https://pngimg.com/uploads/watches/watches_PNG101452.png"
-                },
-                {
-                    "id": 1,
-                    "name": "Digital Watch",
-                    "cost": "Rs. 90,000",
-                    "image": "https://pngimg.com/uploads/watches/watches_PNG101449.png"
-                },
-                {
-                    "id": 2,
-                    "name": "Analogue-Digital Watch",
-                    "cost": "Rs. 70,000",
-                    "image": "https://pngimg.com/uploads/watches/watches_PNG101437.png"
-                },
-                {
-                    "id": 3,
-                    "name": "Chronograph Watch",
-                    "cost": "Rs. 15,000",
-                    "image": "https://pngimg.com/uploads/watches/watches_PNG101422.png"
-                }
-            ]
+          "id": 3,
+          "name": "Leather Wallet",
+          "cost": "Rs. 70,000",
+          "image": "https://pngimg.com/uploads/wallet/wallet_PNG77019.png"
         },
         {
-            "id": 3,
-            "name": "Perfumes",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQP9BSLLfuQEQR8clySxgGKfGNJKBI26qGQ&usqp=CAU",
-            "products": [
-                {
-                    "id": 0,
-                    "name": "Ajmal Perfume",
-                    "cost": "Rs. 10,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREljmHbjkGvOxUkBAA2qGT72luFbMfl2Mx5A&usqp=CAU"
-                },
-                {
-                    "id": 1,
-                    "name": "Wild Stone Perfume",
-                    "cost": "Rs. 90,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJIw6O-UfGlUlQa90NgkwJQM4H01aIIRex663ZE4DaLi0YAua_unq4T23BnOhs5bp-r8&usqp=CAU"
-                },
-                {
-                    "id": 2,
-                    "name": "Sweetheart Perfume",
-                    "cost": "Rs. 70,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVCSxo5rj5rprrrBkkaquIeHpEm0zDYyy4BKHKUtUagUBWEpc3HD9KUkYrzozp5wbJDc&usqp=CAU"
-                },
-                {
-                    "id": 3,
-                    "name": "Armaf Perfume",
-                    "cost": "Rs. 15,000",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5HnXUXLB0oh_NUqXf5t8afiI44b60IhSmnnUjQiUZ2qi_DEpY6oWM3uKfCYYqHmYrMUM&usqp=CAU"
-                }
-            ]
+          "id": 4,
+          "name": "Nylon Wallet",
+          "cost": "Rs. 15,000",
+          "image": "https://pngimg.com/uploads/wallet/wallet_PNG77045.png"
         }
-    ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Watches",
+      "image": "https://pngimg.com/uploads/watches/watches_PNG9904.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "Analogue Watch",
+          "cost": "Rs. 10,000",
+          "image": "https://pngimg.com/uploads/watches/watches_PNG101452.png"
+        },
+        {
+          "id": 2,
+          "name": "Digital Watch",
+          "cost": "Rs. 90,000",
+          "image": "https://pngimg.com/uploads/watches/watches_PNG101449.png"
+        },
+        {
+          "id": 3,
+          "name": "Analogue-Digital Watch",
+          "cost": "Rs. 70,000",
+          "image": "https://pngimg.com/uploads/watches/watches_PNG101437.png"
+        },
+        {
+          "id": 4,
+          "name": "Chronograph Watch",
+          "cost": "Rs. 15,000",
+          "image": "https://pngimg.com/uploads/watches/watches_PNG101422.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Perfumes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQP9BSLLfuQEQR8clySxgGKfGNJKBI26qGQ&usqp=CAU",
+      "products": [
+        {
+          "id": 1,
+          "name": "Ajmal Perfume",
+          "cost": "Rs. 10,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREljmHbjkGvOxUkBAA2qGT72luFbMfl2Mx5A&usqp=CAU"
+        },
+        {
+          "id": 2,
+          "name": "Wild Stone Perfume",
+          "cost": "Rs. 90,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJIw6O-UfGlUlQa90NgkwJQM4H01aIIRex663ZE4DaLi0YAua_unq4T23BnOhs5bp-r8&usqp=CAU"
+        },
+        {
+          "id": 3,
+          "name": "Sweetheart Perfume",
+          "cost": "Rs. 70,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVCSxo5rj5rprrrBkkaquIeHpEm0zDYyy4BKHKUtUagUBWEpc3HD9KUkYrzozp5wbJDc&usqp=CAU"
+        },
+        {
+          "id": 4,
+          "name": "Armaf Perfume",
+          "cost": "Rs. 15,000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5HnXUXLB0oh_NUqXf5t8afiI44b60IhSmnnUjQiUZ2qi_DEpY6oWM3uKfCYYqHmYrMUM&usqp=CAU"
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": "0af670e5-9a34-4d6b-a9d3-779abc8c6ce4",
+      "name": "Elite blue with classic buckle",
+      "cost": "Rs. 10,000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS73sI27EX44zxJHCSrf4WstL98dDlBA5eal0m12u-jUfAWe_HFUnBtR7DLgNtsFg4Q7mo&usqp=CAU"
+    },
+    {
+      "id": "203e5f33-b910-4447-8a16-23c1e819ee4f",
+      "name": "Elastic Belt ",
+      "cost": "Rs. 90,000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhMYUvib3Y8T9B5JWD1hhrvOrDjsH6rwgmrkYjXS5fZnuFWvkB_RKwt4RiMsXUqb-0MdA&usqp=CAU"
+    },
+    {
+      "id": "f8e80e3c-f97b-4cb9-aa4b-a8f86523ff94",
+      "name": "Fabric Wallet",
+      "cost": "Rs. 90,000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYoMoy5_ufyugWzOLt5tzN1HmHH9MssmL4tWb5QTyvzL2tQ0d8L2lpAepzjXsliz8t5Nc&usqp=CAU"
+    }
+  ]
 }
