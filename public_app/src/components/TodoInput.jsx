@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { addTodo } from '../store/todos/todos.actions'
+import { addTodo } from '../store/posts/posts.actions'
 
 export const TodoInput = () => {
     const dispatch = useDispatch()

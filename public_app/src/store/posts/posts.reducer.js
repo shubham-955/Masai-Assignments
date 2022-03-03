@@ -1,7 +1,7 @@
-import { ADD_TODOS, DELETE_TODOS } from "./todos.actionTypes";
-import { initialState } from "./todos.constants";
+import { ADD_TODOS, DELETE_TODOS } from "./posts.actionTypes";
+import { initialState } from "./posts.constants";
 
-export const todosReducer = (state = initialState, { type, payload }) => {
+export const postReducer = (state = initialState, { type, payload }) => {
     switch (type) {
         case ADD_TODOS: {
             return {

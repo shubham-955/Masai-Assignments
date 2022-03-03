@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { deleteTodos } from '../store/todos/todos.actions'
+import { deleteTodos } from '../store/posts/posts.actions'
 
 export const Todo = ({ todo }) => {
     const dispatch = useDispatch()

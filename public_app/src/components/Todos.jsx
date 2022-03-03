@@ -5,7 +5,7 @@ import { TodoInput } from './TodoInput'
 
 
 export const Todos = () => {
-    const todos = useSelector((state) => state.todos.data);
+    const todos = useSelector((state) => state.posts.data);
     return (
         <div>
             <h1>ADD TODOS</h1>

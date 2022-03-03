@@ -1,5 +1,5 @@
 import { v4 } from "uuid";
-import { ADD_TODOS, DELETE_TODOS } from "./todos.actionTypes";
+import { ADD_TODOS, DELETE_TODOS } from "./posts.actionTypes";
 
 export const addTodo = (value) => ({
     type: ADD_TODOS,
