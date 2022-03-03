@@ -43,16 +43,37 @@ export const AllProducts = () => {
       const responseData = await postFetch("http://localhost:3000/cart", data)
       console.log(responseData)
       getCount();
+      // changeStatus(item);
     } catch (err) {
       console.log("Error fetching data-----------", err);
     }
   }
 
+  // const changeStatus = (item) => {
+  //   let data = {
+  //     ...item,
+  //     status: true
+  //   }
+  //   console.log(data);
+  //   fetch(`(http://localhost:3000/category/${params.id}).products[${item.id}]`, {
+  //     method: "PATCH",
+  //     headers: {
+  //       "content-type": "application/json",
+  //     },
+  //     body: JSON.stringify(data),
+  //   }).then((r) => {
+  //     console.log(r)
+  //     r.json();
+  //   }
+  //   ).then((d) => {
+  //     console.log(d)
+  //   })
+  // }
+
   return (
     <div className='productSection'>
       {products.map(item => {
-        return (<div className='indContainer'
-        >
+        return (<div className='indContainer'>
           <div className='image'>
             <img src={item.image} alt="" />
           </div>

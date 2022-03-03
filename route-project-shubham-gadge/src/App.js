@@ -9,12 +9,14 @@ import { ContactBox } from './Components/ContactBox';
 import { About } from './Pages/About';
 import { FAQ } from './Pages/FAQ';
 import { Contact } from './Pages/Contact';
+import { CartDrawer } from './Components/CartDrawer';
 
 function App() {
   return (
     <div className='container'>
       <ContactBox />
       <Navbar />
+      <CartDrawer />
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='home' element={<Home />} />

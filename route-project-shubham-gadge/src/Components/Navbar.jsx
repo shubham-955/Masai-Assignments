@@ -1,14 +1,12 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { Link } from "react-router-dom"
 import { AuthContext } from '../Contexts/AuthProvider';
 import '../CSS/Navbar.css'
-import { LocalMallOutlined, Close } from '@material-ui/icons';
-import { Drawer } from '@material-ui/core';
+import { LocalMallOutlined } from '@material-ui/icons';
 
 export const Navbar = () => {
 
-    const { count } = useContext(AuthContext);
-    const [state, setState] = useState(false);
+    const { count, setState } = useContext(AuthContext);
 
     return (
         <>
@@ -42,12 +40,6 @@ export const Navbar = () => {
             <div className='offer'>
                 <p>FREE SHIPPING RS.500+ | EASY RETURNS | WORTH HOLDING ONTO</p>
             </div>
-            <Drawer anchor='right' open={state}
-                onClose={() => setState(false)} onOpen={() => setState(true)}>
-                <div className='drawer'>
-                    <Close style={{ fontSize: 33 }} onClick={() => setState(false)} />
-                </div>
-            </Drawer>
         </>
     );
 };
