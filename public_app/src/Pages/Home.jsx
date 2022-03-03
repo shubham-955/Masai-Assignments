@@ -1,10 +1,10 @@
 import React from 'react'
-import { Todos } from '../components/Todos';
+import { Posts } from '../components/Posts';
 
 export const Home = () => {
     return (
         <div className='homeContainer'>
-            <Todos />
+            <Posts />
         </div>
     )
 }

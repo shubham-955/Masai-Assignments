@@ -1,2 +1,2 @@
-export const ADD_TODOS = "ADD_TODOS";
+export const GET_POSTS = "GET_POSTS";
 export const DELETE_TODOS = "DELETE_TODOS";

@@ -11,15 +11,15 @@ export const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/"></Link>
+                <Link className="navbar-brand" to="/">Public App</Link>
             </div>
             <div className="collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link to="/home">Home</Link>
+                        <Link to="/posts">Posts</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/about">About Us</Link>
+                        <Link to="/users">Users</Link>
                     </li>
                     <li className='nav-item'>
                         <button className='logout' onClick={() => dispatch(logout())}>Logout</button>

@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "c95cf481-209b-4697-8970-7ab12ab821e1",
+      "status": false,
+      "name": "Singapore",
+      "cost": "Delicious Lunch",
+      "image": "https://preview.colorlib.com/theme/roberto/img/bg-img/x6.jpg.pagespeed.ic.-HFJcpiaDg.webp"
+    },
+    {
+      "id": "198da249-2e8b-420d-84f5-b5ef579de408",
+      "status": false,
+      "name": "Mumbai, Maharashtra, India",
+      "cost": "Luxurious Sofas collection",
+      "image": "https://preview.colorlib.com/theme/roberto/img/bg-img/18.jpg.webp"
+    },
+    {
+      "id": "5a08e436-1283-41b4-9430-e6faf163ca87",
+      "status": false,
+      "name": "Bengaluru, India",
+      "cost": "Chilling with Friends...",
+      "image": "https://preview.colorlib.com/theme/roberto/img/bg-img/x5.jpg.pagespeed.ic.3SoamdZVQ0.webp"
+    },
+    {
+      "id": "c31777e6-5d34-40e2-bc90-1c923f38e3a8",
+      "status": false,
+      "name": "Goa, Maharashtra, India",
+      "cost": "The stunning sea side view",
+      "image": "https://preview.colorlib.com/theme/roberto/img/bg-img/x8.jpg.pagespeed.ic.hBR-a9XJuc.webp"
+    }
+  ]
+}

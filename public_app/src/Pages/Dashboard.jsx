@@ -1,7 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import { Navbar } from '../components/Navbar';
-import { About } from './About';
+import { Users } from './Users';
 import { Home } from './Home';
+import IndPost from './IndPost';
 
 export const Dashboard = () => {
     return (
@@ -9,8 +10,9 @@ export const Dashboard = () => {
             <Navbar />
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/home' element={<Home />} />
-                <Route path='/about' element={<About />} />
+                <Route path='/posts' element={<Home />} />
+                <Route path=':id' element={<IndPost />} />
+                <Route path='/users' element={<Users />} />
             </Routes>
         </div>
     );

@@ -1,11 +1,12 @@
-import { ADD_TODOS, DELETE_TODOS } from "./posts.actionTypes";
+import { GET_POSTS, DELETE_TODOS } from "./posts.actionTypes";
 import { initialState } from "./posts.constants";
 
 export const postReducer = (state = initialState, { type, payload }) => {
     switch (type) {
-        case ADD_TODOS: {
+        case GET_POSTS: {
+            console.log(payload)
             return {
-                ...state, data: [...state.data, payload]
+                ...state, data: [...payload]
             };
         }
         case DELETE_TODOS: {

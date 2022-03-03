@@ -1,10 +1,10 @@
 import React from 'react'
 import '../App.css'
 
-export const About = () => {
+export const Users = () => {
     return (
         <div className='homeContainer'>
-            <p>About</p>
+            <p>No users to display</p>
         </div>
     )
 }

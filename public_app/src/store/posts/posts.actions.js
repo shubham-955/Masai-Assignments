@@ -1,12 +1,9 @@
 import { v4 } from "uuid";
-import { ADD_TODOS, DELETE_TODOS } from "./posts.actionTypes";
+import { DELETE_TODOS, GET_POSTS } from "./posts.actionTypes";
 
-export const addTodo = (value) => ({
-    type: ADD_TODOS,
-    payload: {
-        id: v4(),
-        value,
-    }
+export const getPosts = (payload) => ({
+    type: GET_POSTS,
+    payload
 })
 
 export const deleteTodos = (value) => ({
