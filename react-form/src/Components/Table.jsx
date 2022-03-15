@@ -25,7 +25,7 @@ export const Table = () => {
         <TableInput list={list} setList={setList} />
       </div>
       <div className='secondBox'>
-        <table border={ }>
+        <table>
           {list.map((item) => {
             return (
               <TableItem key={item.id} item={item} list={list} handleDelete={handleDelete} />

@@ -22,7 +22,6 @@ export const authReducer = (state = initialState, { type, payload }) => {
             }
         }
         case USER_LOGIN_ERROR: {
-            let userToken = "ABCD";
             updateValue("userToken", payload.userToken)
             return {
                 ...state.auth,

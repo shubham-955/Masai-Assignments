@@ -27,11 +27,11 @@ export const Login = () => {
         })
     }
 
-    if (isLoading) return <h1>Loading...</h1>
+    if (isLoading) return <h1 style={{textAlign:"center"}}>Loading...</h1>
     if (error) return <h1>Error...</h1>
     return (
         <div className='loginContainer'>
-            <h1>Welcome to Public App</h1>
+            <h1>Welcome to authentication</h1>
             <div className='loginSection'>
                 <label htmlFor="email">Enter your email</label>
                 <input type="text" id='email' placeholder='Enter your email' name='email' value={credentials.email} onChange={onChange} className='input' />

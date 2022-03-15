@@ -3,11 +3,11 @@ import { AuthContext } from '../Contexts/AuthProvider';
 
 export const Navbar = () => {
 
-    const { isAuthorized, onLogin, onLogout } = useContext(AuthContext);
+    const { isAuthorized, onLogin, onLogout, token } = useContext(AuthContext);
 
     return (
         <div>
-            Navbar: {isAuthorized}
+            Navbar: {token}
             <button onClick={() => {
                 if (isAuthorized) {
                     onLogout()
